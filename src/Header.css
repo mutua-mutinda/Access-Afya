@@ -1,0 +1,110 @@
+.header {
+  position: relative;
+  display: flex;
+  padding: 6px;
+  background-color: #fff;
+}
+.header__assessment > button {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  width: 90%;
+  font-weight: 600;
+  height: 50%;
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header__right {
+  position: absolute;
+  /* margin: 3px; */
+  display: flex;
+  top: 10px;
+  right: 2px;
+}
+.header__progressbar {
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.header__progress {
+  display: flex;
+  width: 250px;
+  height: 20px;
+  padding: 15px 0 0 0;
+  margin: 0;
+  background: none;
+  border: 0;
+  border-radius: 15px;
+  position: relative;
+  font-size: 0.8em;
+}
+.header__progress::-webkit-progress-bar {
+  height: 5px;
+  width: 250px;
+  background-color: #ccc;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px #fff inset;
+}
+.header__progress::-webkit-progress-value {
+  float: left;
+  height: 5px;
+  background: rgb(109, 43, 233);
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px #777 inset;
+}
+.header__progress:after {
+  /* margin: -26px 0 0 -7px; */
+  padding: 0;
+  float: left;
+  /* left: 20px; */
+  /* content: attr(value) "%"; */
+}
+
+.header__patientseen {
+  display: flex;
+  right: 40px;
+  /* flex: -2; */
+  color: grey;
+  font-weight: 500;
+}
+
+.header__avatar {
+  display: flex;
+  left: 2;
+  margin-left: 40%;
+  margin: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.header__user {
+  top: 0;
+  display: flex;
+  padding: 2px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 50%;
+  flex-direction: column;
+  flex: 2;
+}
+
+.header__profile {
+  position: relative;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  right: -10px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* cursor: pointer; */
+}
+.header__profile > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

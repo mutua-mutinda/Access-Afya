@@ -18,7 +18,6 @@
 
 .header__right {
   position: absolute;
-  /* margin: 3px; */
   display: flex;
   top: 10px;
   right: 2px;
@@ -54,17 +53,13 @@
   box-shadow: 0px 0px 6px #777 inset;
 }
 .header__progress:after {
-  /* margin: -26px 0 0 -7px; */
   padding: 0;
   float: left;
-  /* left: 20px; */
-  /* content: attr(value) "%"; */
 }
 
 .header__patientseen {
   display: flex;
   right: 40px;
-  /* flex: -2; */
   color: grey;
   font-weight: 500;
 }
@@ -97,7 +92,6 @@
   right: -10px;
   border-radius: 50%;
   overflow: hidden;
-  /* cursor: pointer; */
 }
 .header__profile > img {
   position: absolute;

@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import "./Home.css";
+import KeyIssues from "./KeyIssues";
+import Monitorperiod from "./Monitorperiod";
 import Visits from "./Visits";
 
 function Home() {
@@ -9,6 +11,8 @@ function Home() {
       <Header />
       <h2>Analytics</h2>
       <Visits />
+      <KeyIssues />
+      <Monitorperiod />
     </div>
   );
 }

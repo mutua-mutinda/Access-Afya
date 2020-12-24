@@ -1,4 +1,5 @@
 import React from "react";
+import Charts from "./Charts";
 import Header from "./Header";
 import "./Home.css";
 import KeyIssues from "./KeyIssues";
@@ -13,6 +14,7 @@ function Home() {
       <Visits />
       <KeyIssues />
       <Monitorperiod />
+      <Charts />
     </div>
   );
 }

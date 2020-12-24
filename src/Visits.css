@@ -29,6 +29,7 @@
   margin-top: 15px;
 }
 .visits__btn:hover,
+.visits__btn:active,
 .visits__btn:focus .visits__btn > span:hover {
   color: #fff;
   background: rgb(109, 43, 233);

@@ -46,3 +46,29 @@
   border-color: rgb(109, 43, 233);
   outline: rgb(109, 43, 233);
 }
+
+.monitoring__date {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 200px;
+  place-content: center;
+  height: 40px;
+  margin-left: 500px;
+  border: 2px solid lightgray;
+  background: #fff;
+  border-radius: 4px;
+  color: rgb(109, 43, 233);
+  font-weight: 560;
+  margin-top: -55px;
+  align-items: center;
+}
+
+/* .monitoring__periodDate {
+  display: flex;
+  margin-left: 500px;
+} */
+
+/* .monitoring__date{
+
+} */

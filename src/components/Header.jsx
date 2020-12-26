@@ -20,7 +20,6 @@ function Header() {
         </div>
         <div className="header__avatar">
           <div className="header__user">
-            {/* Exract from db */}
             <strong>Mutua Mutinda</strong>
             <small>mutuamutinda@accessafya.com</small>
           </div>

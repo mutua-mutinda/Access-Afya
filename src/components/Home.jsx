@@ -5,6 +5,7 @@ import "./Home.css";
 import KeyIssues from "./KeyIssues";
 import Monitorperiod from "./Monitorperiod";
 import Visits from "./Visits";
+import Staffdata from "./Staffdata";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <KeyIssues />
       <Monitorperiod />
       <Charts />
+      <Staffdata />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.staff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 450px;
+  font-weight: 300;
+  margin-top: 300px;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+.staff__table {
+  width: 1200px;
+  height: 300px;
+  border: 2px solid #fff;
+  border: 5px;
+  background: #fff;
+}
+
+.staff__table > tbody > tr > td {
+  padding-left: 30px;
+}
+
+.staff__name {
+  color: rgb(109, 43, 233);
+  font-weight: 500;
+}

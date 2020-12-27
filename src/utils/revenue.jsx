@@ -4,8 +4,7 @@ export const revenueData = {
     {
       data: [7, 12, 11, 18, 16],
       fill: false,
-      borderColor: "green",
-      backgroundColor: "none",
+      borderColor: "rgb(16, 218, 207)",
     },
   ],
 };
@@ -38,7 +37,4 @@ export const revenueOptions = {
   tooltips: {
     enabled: false,
   },
-  //   align: {
-  //     marginLeft: "24px",
-  //   },
 };

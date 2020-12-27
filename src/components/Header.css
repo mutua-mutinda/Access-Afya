@@ -16,6 +16,12 @@
   cursor: pointer;
 }
 
+.header__assessment > button:hover,
+.header__assessment > button:focus {
+  border-color: rgb(109, 43, 233);
+  outline: rgb(109, 43, 233);
+}
+
 .header__right {
   position: absolute;
   display: flex;

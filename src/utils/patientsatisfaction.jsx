@@ -37,7 +37,4 @@ export const patientOptions = {
   tooltips: {
     enabled: false,
   },
-  align: {
-    marginLeft: "14px",
-  },
 };

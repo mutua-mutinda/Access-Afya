@@ -16,12 +16,13 @@
 }
 
 .chart__footfall > p {
-  margin-left: 15px;
+  margin-left: 25px;
+  margin-top: 20px;
   font-weight: 500;
 }
 
 .chart__footfall > span {
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 18px;
   font-size: 28px;
   font-weight: 600;
@@ -31,7 +32,7 @@
 .chart__footfall > small {
   color: rgb(173, 169, 169);
   font-weight: 200;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 .chart__patientsatisfaction {
   display: flex;
@@ -47,12 +48,13 @@
 }
 
 .chart__patientsatisfaction > p {
-  margin-left: 15px;
+  margin-left: 25px;
+  margin-top: 20px;
   font-weight: 500;
 }
 
 .chart__patientsatisfaction > span {
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 18px;
   font-size: 28px;
   font-weight: 600;
@@ -62,7 +64,7 @@
 .chart__patientsatisfaction > small {
   color: rgb(173, 169, 169);
   font-weight: 200;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .chart__revenue {
@@ -79,12 +81,13 @@
 }
 
 .chart__revenue > p {
-  margin-left: 15px;
+  margin-left: 25px;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .chart__revenue > span {
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 18px;
   font-size: 28px;
   font-weight: 600;
@@ -94,10 +97,57 @@
 .chart__revenue > small {
   color: rgb(173, 169, 169);
   font-weight: 200;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .chart__line {
   margin-left: 120px;
-  margin-top: -40px;
+  margin-top: -90px;
+}
+
+.chart__caret {
+  content: "";
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 25px;
+  width: 8px;
+  height: 8px;
+  background: rgb(16, 218, 207);
+  transform: rotate(45deg);
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.chart__caretdown {
+  content: "";
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 25px;
+  width: 8px;
+  height: 8px;
+  background: rgb(218, 16, 16);
+  transform: rotate(45deg);
+  mask-image: linear-gradient(to top, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.chart__causer1 {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(16, 218, 207);
+  margin-left: 40px;
+  margin-top: 19px;
+}
+
+.chart__causer2 {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(218, 16, 16);
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.chart__causer3 {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(16, 218, 207);
+  margin-left: 40px;
+  margin-top: 19px;
 }

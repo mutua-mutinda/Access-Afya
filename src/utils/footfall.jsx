@@ -4,7 +4,7 @@ export const footData = {
     {
       data: [7, 13, 11, 17, 16.8],
       fill: false,
-      borderColor: "green",
+      borderColor: "rgb(16, 218, 207)",
     },
   ],
 };
@@ -36,8 +36,5 @@ export const footOptions = {
   },
   tooltips: {
     enabled: false,
-  },
-  align: {
-    marginLeft: "14px",
   },
 };

@@ -16,7 +16,7 @@ function Staffdata() {
           </tr>
           <tr>
             <td>1</td>
-            <td className="staff__name">Mercy mokayo</td>
+            <td className="staff__name">Mercy Mukoya</td>
             <td>1,3</td>
             <td>1,2</td>
             <td>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Staffdata.css";
+import caretup from "./caretup.png";
+import caretdown from "./caretdown.png";
 
 function Staffdata() {
   return (
@@ -17,8 +19,18 @@ function Staffdata() {
           <tr>
             <td>1</td>
             <td className="staff__name">Mercy Mukoya</td>
-            <td>1,3</td>
-            <td>1,2</td>
+            <td>
+              1,3
+              <span className="staff__causer">
+                +0,2
+                <img className="staff__caret" src={caretup} alt="" />
+              </span>
+            </td>
+            <td>
+              1,2
+              <span className="staff__causer">+0,3</span>
+              <img className="staff__caret" src={caretup} alt="" />
+            </td>
             <td>
               <progress
                 className="staff__progress"
@@ -37,8 +49,20 @@ function Staffdata() {
           <tr>
             <td>2</td>
             <td className="staff__name">Kennedy Ayako</td>
-            <td>1,8</td>
-            <td>1,8</td>
+            <td>
+              1,8
+              <span className="staff__causer">
+                +0,4
+                <img className="staff__caret" src={caretup} alt="" />
+              </span>
+            </td>
+            <td>
+              1,8
+              <span className="staff__causer">
+                +0,2
+                <img className="staff__caret" src={caretup} alt="" />
+              </span>
+            </td>
             <td>
               <progress
                 className="staff__progress"
@@ -57,8 +81,12 @@ function Staffdata() {
           <tr>
             <td>3</td>
             <td className="staff__name">Stephanie Tomsett</td>
-            <td>2,7</td>
-            <td>2</td>
+            <td>
+              2,7 <span className="staff__causer">2,5</span>
+            </td>
+            <td>
+              2 <span className="staff__causer">1.8</span>
+            </td>
             <td>
               <progress
                 className="staff__progress"
@@ -77,8 +105,20 @@ function Staffdata() {
           <tr>
             <td>4</td>
             <td className="staff__name">Faith Kityo</td>
-            <td>2,8</td>
-            <td>2,5</td>
+            <td>
+              2,8
+              <span className="staff__causer">
+                -0,5
+                <img className="staff__caretdown" src={caretdown} alt="" />
+              </span>
+            </td>
+            <td>
+              2,5
+              <span className="staff__causer">
+                -2,1
+                <img className="staff__caretdown" src={caretdown} alt="" />
+              </span>
+            </td>
             <td>
               <progress
                 className="staff__progress"

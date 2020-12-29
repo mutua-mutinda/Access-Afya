@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Monitorperiod.css";
+import Datepicker from "./Datepicker";
+import { Button } from "@material-ui/core";
 
 function Monitorperiod() {
-  const date = new Date().getFullYear();
-
+  const [showDate, setShowDate] = useState(false);
+  console.log("date", showDate);
   return (
     <div className="monitoring">
       <p>MONITORING PERIOD</p>
@@ -13,7 +15,15 @@ function Monitorperiod() {
         <button>Month</button>
         <button>Year</button>
       </div>
-      <button className="monitoring__date">{date}</button>
+      <div className="monitoring__datepicker">
+        {showDate && <Datepicker />}
+        <Button
+          className="monitoring__date"
+          onClick={() => setShowDate(!showDate)}
+        >
+          dates
+        </Button>
+      </div>
     </div>
   );
 }

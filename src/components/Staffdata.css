@@ -25,7 +25,6 @@
 
 .staff__progress {
   display: flex;
-  width: 220px;
   height: 20px;
   padding: 15px 0 0 0px;
   margin: 0;
@@ -35,21 +34,31 @@
   position: relative;
   font-size: 0.8em;
 }
+
 .staff__progress::-webkit-progress-bar {
   margin-left: 35px;
   height: 5px;
-  width: 250px;
   background-color: #fff;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
   border-radius: 15px;
-  box-shadow: 0px 0px 6px rgb(109, 43, 233) inset;
 }
+
 .staff__progress::-webkit-progress-value {
   float: left;
   height: 5px;
-  background: rgb(109, 43, 233);
+  background: linear-gradient(to right, #5f0ee0, #c9acf8);
   border-radius: 15px;
-  box-shadow: 0px 0px 6px rgb(109, 43, 233) inset;
 }
+
 .staff__progress::before {
   margin: -10px -20px 15px -19px;
   padding: 0px;

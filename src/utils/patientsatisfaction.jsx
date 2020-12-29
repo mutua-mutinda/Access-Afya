@@ -5,6 +5,7 @@ export const patientData = {
       data: [7, 19, 15, 10, 7],
       fill: false,
       borderColor: "red",
+      radius: 0,
     },
   ],
 };

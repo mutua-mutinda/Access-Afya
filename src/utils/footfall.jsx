@@ -5,6 +5,7 @@ export const footData = {
       data: [7, 13, 11, 17, 16.8],
       fill: false,
       borderColor: "rgb(16, 218, 207)",
+      radius: 0,
     },
   ],
 };

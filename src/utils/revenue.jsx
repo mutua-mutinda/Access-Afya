@@ -5,6 +5,7 @@ export const revenueData = {
       data: [7, 12, 11, 18, 16],
       fill: false,
       borderColor: "rgb(16, 218, 207)",
+      radius: 0,
     },
   ],
 };

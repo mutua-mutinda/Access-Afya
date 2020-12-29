@@ -46,7 +46,13 @@
   border-color: rgb(109, 43, 233);
   outline: rgb(109, 43, 233);
 }
-
+.monitoring__datepicker {
+  display: flex;
+  margin-left: 500px;
+  margin-top: -55px;
+  width: 200px;
+  border: 2px solid lightgray;
+}
 .monitoring__date {
   display: flex;
   flex-direction: column;

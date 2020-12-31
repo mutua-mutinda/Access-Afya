@@ -31,3 +31,11 @@
   margin-left: 25px;
   cursor: pointer;
 }
+
+.menu__adjust {
+  height: 30px;
+  width: 30px;
+  margin-top: 45px;
+  margin-left: 25px;
+  cursor: pointer;
+}

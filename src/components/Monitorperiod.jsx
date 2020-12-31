@@ -16,7 +16,7 @@ function Monitorperiod() {
         <button>Year</button>
       </div>
       <div className="monitoring__datepicker">
-        {showDate && <Datepicker />}
+        {showDate || <Datepicker />}
         <Button
           className="monitoring__date"
           onClick={() => setShowDate(!showDate)}

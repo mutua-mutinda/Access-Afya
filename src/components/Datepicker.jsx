@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { DateRangePicker } from "react-date-range";
+import { DateRange } from "react-date-range";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 
@@ -11,6 +11,7 @@ function Datepicker() {
   const selectionRange = {
     startDate: startDate,
     endDate: endDate,
+    showDateDisplay: true,
     key: "selection",
   };
 
@@ -22,7 +23,7 @@ function Datepicker() {
 
   return (
     <div>
-      <DateRangePicker
+      <DateRange
         ranges={[selectionRange]}
         onChange={handleSelect}
         showSelectionPreview={true}

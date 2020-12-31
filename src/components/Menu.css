@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  height: 1420px;
+  width: 5%;
+  margin-top: -90px;
+  background: #fff;
+  left: 0;
+  z-index: 1;
+  border-right: 0.5px solid rgb(245, 242, 242);
+}
+
+.menu__pulse {
+  height: 30px;
+  width: 30px;
+  margin-top: 35px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.menu__folder {
+  height: 30px;
+  width: 30px;
+  margin-top: 400px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.menu__inbox {
+  height: 30px;
+  width: 30px;
+  margin-top: 45px;
+  margin-left: 25px;
+  cursor: pointer;
+}
